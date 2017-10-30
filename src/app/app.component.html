@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="">Margaret's List</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="appliance">Appliances</a></li>
+      <li><a routerLink="car">Automotive</a></li>
+      <li><a routerLink="electronic">Electronics</a></li>
+      <li><a routerLink="music">Musical Instruments</a></li>
+      <li><a routerLink="sport">Sporting</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container"> 
+  <router-outlet></router-outlet>
+</div>
