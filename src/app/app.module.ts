@@ -6,21 +6,17 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
-import { ApplianceComponent } from './appliance/appliance.component';
-import { CarComponent } from './car/car.component';
-import { ElectronicComponent } from './electronic/electronic.component';
-import { MusicComponent } from './music/music.component';
-import { SportComponent } from './sport/sport.component';
+import { AddListingComponent } from './add-listing/add-listing.component';
+import { EditListingComponent } from './edit-listing/edit-listing.component';
+import { DeleteListingComponent } from './delete-listing/delete-listing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    ApplianceComponent,
-    CarComponent,
-    ElectronicComponent,
-    MusicComponent,
-    SportComponent
+    AddListingComponent,
+    EditListingComponent,
+    DeleteListingComponent
   ],
   imports: [
     BrowserModule,
