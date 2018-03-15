@@ -2,7 +2,7 @@
 
 #### _A re-creation of Craigslist that allows a user to view items for sale, 10.30.2017_
 
-#### By _**Margaret Berry**_
+#### By _**Margaret Berry and Gabrijela Gavric**_
 
 ## Description
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0._
@@ -38,4 +38,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### License
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2017 **_Margaret Berry_**
+Copyright (c) 2017 **_Margaret Berry and Gabrijela Gavric_**
